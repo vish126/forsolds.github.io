@@ -1,0 +1,272 @@
+@media (max-width: 1024px) {
+  form {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.5em 2em;
+    border-radius: 20px;
+    background: white;
+  }
+}
+@media (max-width: 800px) {
+  section {
+    padding: 1em 2em;
+  }
+  .first-section-div h1 {
+    font-size: 3.9rem;
+    padding: 0;
+  }
+  .testomonial {
+    padding: 5em 0.5em;
+  }
+  .testomonial div {
+    padding: 1em 1em;
+  }
+  .testomonial div i {
+    margin-left: 0.3em;
+    font-size: 2.5rem;
+
+    line-height: 1.5;
+  }
+  .heading2 {
+    padding: 1em 2em 1em 2em;
+    position: relative;
+  }
+  .carousel {
+    padding: 2em 1em;
+    max-width: 750px;
+
+    overflow-x: auto;
+  }
+  form textarea {
+    width: 100%;
+    max-height: 150px;
+    min-height: 150px;
+  }
+  .fa-mobile-alt {
+    bottom: 10.3em;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 1em;
+  }
+  .first-section-div h1 {
+    font-size: 3.7rem;
+  }
+  .first-section-div p {
+    font-size: 1.4rem;
+  }
+  .testomonial {
+    display: flex;
+
+    border-top: 1px solid #d9dadb;
+  }
+}
+@media (max-width: 601px){
+    .testomonial {
+        display: block;
+        padding: 5em 2em;
+      }
+      .testomonial div {
+        padding: 2em 2em;
+        margin: 1em 0 2em 0;
+      }
+      .contact{
+    
+        padding: 1em  ;   
+    }
+    form {
+        width: 90%;
+        margin: .5em auto;
+        
+        padding: 1.5em  ;
+        border-radius: 5px;
+       
+      }
+      footer{
+        display:block;
+      
+        padding: .1em 3em;
+         text-align: center;
+         
+    }
+    footer i{
+        font-size: 1.4rem;
+        margin: .5em  1em .5em 1em;
+       
+        
+      }
+}
+
+@media (max-width: 576px) {
+  section {
+    padding: 1em 0.5em;
+  }
+  .first-section-div {
+    padding: 6em 1.5em;
+
+    border-radius: 5px;
+  }
+  .first-section-div h1 {
+    padding: 0;
+  }
+  .first-section-div p {
+    font-size: 1.35rem;
+    font-weight: 500;
+  }
+  .link-divs a {
+    margin: 0 0.3em;
+    font-size: 1.1rem;
+  }
+  .navbar-icon i {
+    font-size: 1.3rem;
+    margin: 0 0.5em;
+    color: #707277;
+  }
+  .testomonial {
+    display: block;
+    padding: 5em 2em;
+  }
+  .testomonial div {
+    padding: 2em 2em;
+    margin: 1em 0 2em 0;
+  }
+   
+.carousel {
+    padding: 2em 1em;
+    max-width: 450px;
+}
+.contact{
+    
+    padding: 1em  ;   
+}
+form {
+    width: 90%;
+    margin: .5em auto;
+    
+    padding: 1.5em  ;
+    border-radius: 5px;
+   
+  }
+  footer{
+    display:block;
+  
+    padding: .1em 3em;
+     text-align: center;
+     
+}
+footer div{
+   
+     margin: 0   ;
+    }
+    footer i{
+        font-size: 1.4rem;
+        margin: .5em  1em .5em 1em;
+       
+        
+      }
+}
+@media(max-width:450px){
+    section {
+        padding: 1em 0.3em;
+      }
+      
+      .first-section-div h1 {
+          font-size: 3.3rem;
+        padding: 0;
+      }
+      .heading2 h3{
+       
+        font-size: 1.85rem;
+    }
+    
+    .contact{
+        border-radius: 10px;
+        padding: 1em .5em;   
+    }
+    .infoDiv{
+        
+        padding: 1em  0 2em 0;   
+    }
+    .infoDiv h5{
+        
+        line-height: 1.5;
+    }
+    .first-row-div .col{
+        padding:  1em;
+        
+    }
+    form label{
+       
+        line-height: 1.5;
+        margin-top: .3em;
+         
+       }
+       .fa-user{
+        top: 2.5em;
+        left: 1.2em;
+    }
+    .fa-envelope{
+        top: 6.5em;
+    }
+    .fa-mobile-alt {
+        bottom: 9.6em;
+      }
+      .link-divs{
+        display: none;
+      }
+      .images div{
+        margin: .5em 0;
+        padding:  0 ;
+        text-align: center;
+    }
+}
+@media(max-width:385px){
+    .first-section-div h1 {
+        font-size: 3rem;
+    
+    }
+    .first-section-div p {
+        font-size: 1.1rem;
+       
+      }
+      .first-section-div button{
+        padding: .7em 1.5em;
+        margin-right: .5em;
+        
+          
+        
+    }
+     
+    .contact{
+       padding: 1em .3em;   
+    }
+    form {
+        width: 95%;
+        margin: .5em auto;
+        
+        padding: 1.5em  ;
+        border-radius: 5px;
+       
+      }
+}
+
+@media(max-width:361px){
+    .first-section-div h1 {
+        font-size: 2.8rem;
+    
+    }
+    .first-section-div p {
+        font-size: 1.1rem;
+       
+      }
+      .first-section-div button{
+        padding: .5em 1.2em;
+        margin-right: 1em;
+        text-transform: uppercase;
+          
+        
+    }
+}

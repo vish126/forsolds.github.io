@@ -1,0 +1,120 @@
+<head>
+    <style>
+        /* card caresoule  */
+.slideDiv{
+    display: flex;
+    justify-content: center;
+  
+}
+.carousel{
+    
+   display: flex;
+    justify-content: center;
+    padding: 2em 1em ;
+    max-width: 1100px;
+  
+    overflow-x: auto;
+   
+}
+ .carousel::-webkit-scrollbar{
+     visibility: hidden;
+ }
+.card{ 
+     min-width:300px !important;
+     cursor: pointer;
+    margin: 0 2em;
+    transition: .5s all;
+}
+.btns {
+    background-color: #0850b7 !important;
+}
+ 
+
+    </style>
+</head>
+<body>
+    
+    <div class="slideDiv">
+        <div class="carousel">
+          <div class="card" style="width: 18rem;">
+              <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">20000 USD</h5>
+                <p class="card-text"> see this property for buy</p>
+                <a href="#" class="btn btn-primary">see full details</a>
+              </div>
+            </div>
+    
+            <div class="card" style="width: 18rem;">
+              <img src="https://images.pexels.com/photos/3214064/pexels-photo-3214064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">20000 USD</h5>
+                <p class="card-text"> see this property for buy </p>
+                <a href="#" class="btn btn-primary btns">see full details</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="https://images.pexels.com/photos/210617/pexels-photo-210617.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">20000 USD</h5>
+                <p class="card-text"> see this property for buy </p>
+                <a href="#" class="btn btn-primary btns ">see full details</a>
+              </div>
+            </div>
+            
+            </div>
+        </div>
+   
+  
+<script>
+    "use strict"
+    // selectors elements
+   const card = document.querySelectorAll('.card');
+   const buttons = document.querySelectorAll('.buttons');
+    let imageNum = 1;
+    let j = null;
+    let transform = 0;
+  let  transforms =-1
+  
+  //  excutable code
+  buttons.forEach(button=>{
+    button.addEventListener('click',(e)=>{
+    if(imageNum<=card.length )
+    {
+      if(imageNum==5){
+        j=card.length;
+        
+      }
+      imageNum++;
+      transforms ++;
+      transform=300;
+       
+    }else if(j>0){
+      
+      j--;
+      transforms--;
+      transform=-300;
+    }else if(j<=0){
+      j=null;
+      imageNum=1;
+    }
+    
+    
+     
+    
+    
+     
+    
+   
+    
+      card[transforms].style.transform = `translateX(${transform}px)`;
+   
+    })
+   
+    
+  })
+  
+  
+  
+  </script>    
+</body>
